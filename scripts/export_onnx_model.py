@@ -109,7 +109,7 @@ def run_export(
 
     onnx_model = SamOnnxModel(
         model=sam,
-        return_single_mask=return_single_mask,
+        return_single_mask=True,
         use_stability_score=use_stability_score,
         return_extra_metrics=return_extra_metrics,
     )
